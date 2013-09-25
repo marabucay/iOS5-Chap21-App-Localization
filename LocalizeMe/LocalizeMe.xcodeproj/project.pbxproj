@@ -33,6 +33,7 @@
 		00C762D217F2918A003AED5C /* BIDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDViewController.m; sourceTree = "<group>"; };
 		00C762D517F2918A003AED5C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BIDViewController.xib; sourceTree = "<group>"; };
 		00C762DC17F2A2E8003AED5C /* flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flag.png; sourceTree = "<group>"; };
+		00C762DE17F2A768003AED5C /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/BIDViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +136,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				fr,
 			);
 			mainGroup = 00C762B017F29189003AED5C;
 			productRefGroup = 00C762BC17F2918A003AED5C /* Products */;
@@ -185,6 +187,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				00C762D517F2918A003AED5C /* en */,
+				00C762DE17F2A768003AED5C /* fr */,
 			);
 			name = BIDViewController.xib;
 			sourceTree = "<group>";
