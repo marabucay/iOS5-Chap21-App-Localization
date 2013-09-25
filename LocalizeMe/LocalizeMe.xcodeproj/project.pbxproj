@@ -15,7 +15,7 @@
 		00C762D017F2918A003AED5C /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C762CF17F2918A003AED5C /* BIDAppDelegate.m */; };
 		00C762D317F2918A003AED5C /* BIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C762D217F2918A003AED5C /* BIDViewController.m */; };
 		00C762D617F2918A003AED5C /* BIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00C762D417F2918A003AED5C /* BIDViewController.xib */; };
-		00C762DD17F2A2E8003AED5C /* flag.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C762DC17F2A2E8003AED5C /* flag.png */; };
+		00C762DF17F2A913003AED5C /* flag.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C762E117F2A913003AED5C /* flag.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,8 +32,9 @@
 		00C762D117F2918A003AED5C /* BIDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDViewController.h; sourceTree = "<group>"; };
 		00C762D217F2918A003AED5C /* BIDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDViewController.m; sourceTree = "<group>"; };
 		00C762D517F2918A003AED5C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BIDViewController.xib; sourceTree = "<group>"; };
-		00C762DC17F2A2E8003AED5C /* flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flag.png; sourceTree = "<group>"; };
 		00C762DE17F2A768003AED5C /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/BIDViewController.xib; sourceTree = "<group>"; };
+		00C762E017F2A913003AED5C /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/flag.png; sourceTree = "<group>"; };
+		00C762E217F2A95F003AED5C /* fr */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fr; path = fr.lproj/flag.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +94,7 @@
 		00C762C617F2918A003AED5C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				00C762DC17F2A2E8003AED5C /* flag.png */,
+				00C762E117F2A913003AED5C /* flag.png */,
 				00C762C717F2918A003AED5C /* LocalizeMe-Info.plist */,
 				00C762C817F2918A003AED5C /* InfoPlist.strings */,
 				00C762CB17F2918A003AED5C /* main.m */,
@@ -155,7 +156,7 @@
 			files = (
 				00C762CA17F2918A003AED5C /* InfoPlist.strings in Resources */,
 				00C762D617F2918A003AED5C /* BIDViewController.xib in Resources */,
-				00C762DD17F2A2E8003AED5C /* flag.png in Resources */,
+				00C762DF17F2A913003AED5C /* flag.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,6 +191,15 @@
 				00C762DE17F2A768003AED5C /* fr */,
 			);
 			name = BIDViewController.xib;
+			sourceTree = "<group>";
+		};
+		00C762E117F2A913003AED5C /* flag.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00C762E017F2A913003AED5C /* en */,
+				00C762E217F2A95F003AED5C /* fr */,
+			);
+			name = flag.png;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
